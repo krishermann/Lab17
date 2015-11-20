@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab17</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+  	<div class="container">
+  	
+  			<nav class="navbar navbar-default" "navbar-fixed-top">
+  				<div class="container-fluid">
+  					<div class="navbar-header">
+				  		<a href = "#/" class ="btn btn-lg navbar-btn">Home</a>
+						<a href = "#/dogView" class="btn btn-lg navbar-btn">Dog</a>
+						<a href = "#/catView" class="btn btn-lg navbar-btn">Cat</a>
+						<a href = "#/polarBearView" class="btn btn-lg navbar-btn">Polar Bear</a>
+						<a href = "#/babySealView" class="btn btn-lg navbar-btn">Seal</a>
+					</div>
+				</div>
+			</nav>
+			<div class="jumbotron">
+				<h1>Angular Animals</h1>
+			</div>
+
+	<div ng-app="routeEx" ng-view=""></div>
+
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type= "text/javascript" src="script.js"></script>
+</body>
+</html>
